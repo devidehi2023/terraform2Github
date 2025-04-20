@@ -9,5 +9,5 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
-  default     = "dev4me-West1-20042025" # Ensure this is globally unique
+  default     = "dev4me-East1-20042025" # Ensure this is globally unique
 }
