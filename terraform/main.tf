@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "example_bucket" {
   bucket = var.bucket_name
 
   tags = {
-    Name        = "Example Bucket3"
+    Name        = "Example Bucket4"
     Environment = "Dev"
   }
 }
